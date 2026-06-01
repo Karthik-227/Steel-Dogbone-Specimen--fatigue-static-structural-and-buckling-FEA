@@ -46,14 +46,14 @@ Geometry and workflow based on a YouTube tutorial.
 ## Results summary
 
 ### Static structural
-- Max equivalent (von Mises) stress: ___ MPa — below yield strength of structural
+- Max equivalent (von Mises) stress: 216.89 MPa 33.11MPa below yield strength of structural
   steel (250 MPa), confirming no static failure
 - Max total deformation: 1 mm (at loaded end)
-- Min safety factor: ___
+- Min safety factor: 1.1527  
 
 ### Fatigue (1,000,000 cycles)
-- Min fatigue life: ___ cycles
-- Fatigue safety factor: ___
+- Min fatigue life: 19101  cycles
+- Fatigue safety factor: 0.39743  
 - Critical location: fillet root at the waist transition (stress concentration zone)
 
 ### Eigenvalue buckling
