@@ -36,6 +36,14 @@ Geometry and workflow based on a YouTube tutorial.
 
 > Mode 1 multiplier < 1 means the specimen buckles before reaching the full 50 MPa load.
 
+## Mesh details
+| Parameter       | Value         |
+|-----------------|---------------|
+| Element size    | 0.5 mm        |
+| Mesh method     | Automatic     |
+| Element type    | Tetrahedral   |
+| Relevance       | Fine          |
+
 ## Software
 ANSYS Workbench 2025 R2 — Student Edition
 
