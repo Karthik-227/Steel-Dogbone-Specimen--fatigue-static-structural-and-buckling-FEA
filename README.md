@@ -43,7 +43,32 @@ Geometry and workflow based on a YouTube tutorial.
 | Mesh method     | Automatic     |
 | Element type    | Tetrahedral   |
 | Relevance       | Fine          |
+## Results summary
 
+### Static structural
+- Max equivalent (von Mises) stress: ___ MPa — below yield strength of structural
+  steel (250 MPa), confirming no static failure
+- Max total deformation: 1 mm (at loaded end)
+- Min safety factor: ___
+
+### Fatigue (1,000,000 cycles)
+- Min fatigue life: ___ cycles
+- Fatigue safety factor: ___
+- Critical location: fillet root at the waist transition (stress concentration zone)
+
+### Eigenvalue buckling
+- Negative load multiplier option was turned off during setup to extract only
+  physically meaningful compressive buckling modes
+- Mode 1 load multiplier: 0.78173 — critical finding, specimen buckles at only
+  78% of the applied 50 MPa load before full load is reached
+- Mode 2 load multiplier: 2.0094
+- Mode 3 load multiplier: 5.7321
+- Max total deformation (Mode 3): 0.88889 mm (normalized, not absolute)
+
+### Overall conclusion
+Buckling is the governing failure mode for this specimen geometry under
+the applied compressive load. The slender waist (5mm) makes it highly
+susceptible to lateral buckling before stress-based or fatigue failure occurs.
 ## Software
 ANSYS Workbench 2025 R2 — Student Edition
 
